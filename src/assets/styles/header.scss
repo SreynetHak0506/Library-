@@ -1,0 +1,51 @@
+header{
+    width: 100%;
+    padding: 20px;
+    border-bottom: 2px solid rgb(207, 204, 204);
+
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+
+    .text-container{
+        display: flex;
+        align-items: center;
+        h1{
+            color: $logo-color;
+            font-size: 30px;
+            font-family: $primary-font;
+        }
+    }
+    .navigation-bar-container{
+        display: flex;
+        .navigation-element{
+            color: $logo-color;
+            transform: 0.2s;
+            cursor: pointer;
+            border-radius: 5px;
+            padding: 10px 15px;
+            font-weight: bold;
+            font-size: 15px;
+            font-family: $primary-font;
+            
+        }
+        .navigation-element:hover{
+            color:white;
+            background-color: $logo-color;
+
+        }
+        input{
+
+            outline: none;
+            padding: 10px;
+            border-radius: 5px;
+            border: 2px solid $logo-color;
+
+            
+            color: $logo-color;
+            font-size: 15px;
+            font-weight: bold;
+            font-family: $primary-font;
+        }
+    }
+}

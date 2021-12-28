@@ -1,0 +1,54 @@
+
+body {
+    background-color: rgba(243, 238, 227, 0.479);
+}
+
+.table-latitude {
+    margin-top: 20px;
+    width: 100%;
+    caption {
+        text-transform: uppercase;
+        font-weight: bold;
+        font-size: 20px;
+        color: #052ca1;;
+        text-align: center;
+    }
+    thead {
+        border-top: 2px solid black ;
+        border-bottom: 2px solid black ;
+        th {
+            text-transform: uppercase;
+            text-align: center;
+            padding: 10px;
+            color:#0f46ec;
+            border: 1px solid #161515;
+        }
+    }
+    tbody {
+        tr {
+            border-bottom: 1px solid #161515;
+            color: rgb(5, 142, 177);
+            td {
+                padding: 10px;
+                border: 1px solid #161515;
+                
+            }
+            th {
+                padding-left: 10px;
+                border: 1px solid #161515;
+            }
+        }
+    }
+    tfoot {
+        color: #3ba7e6;;
+        text-align: center;
+        font-style: italic;
+        border-bottom: 2px solid red;
+        tr {
+            td {
+                padding: 10px;
+                border: 1px solid #161515;
+            }
+        }
+    }
+}
